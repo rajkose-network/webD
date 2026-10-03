@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .outer{
+            width: fit-content;
+            border-radius: 2%;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            width: fit-content;
+            margin: 0 auto;
+            column-gap: 5px;
+            row-gap: 10px;
+        }
+        #set{
+            height: 400px;
+            width: 300px;
+        }
+        div{
+            display: inline-block;
+            display: flex; 
+        }
+        #set2{
+            height: 300px;
+            width: 300px;
+        }
+        #textarea{
+            height: 100px;
+            width: 300px;
+        }
+        button{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head> 
+<body>    
+<div>    
+      <table bgColor="black" width="100%" height="70px">
+           <tr>  
+               <th style="color: white;">TechConf</th>
+               <td style="color: white;">Home</td>
+               <td style="color: white;">Speakers</td>
+               <td style="color: white;">Schedule</td>
+               <td style="color: white;">Register</td>
+               <td><button>Register Now</button></td>
+            </tr>
+        </table> 
+</div>  
+<br>  
+<center>
+<fieldset class="outer">
+<center>
+        <h3 style="color: blue;">Register Now</h3>
+        <h1>Conference Registration</h1> 
+        <h4>fill in the details below to secure your spot at Tech Conference 2026.</h4>
+</center>    
+
+<div class="main">       
+    <div id="one">
+      <fieldset id="set" style="border-radius: 5%;">
+        <h2 style="color: blue;">Personal Information</h2>
+<label for="name"> Name:</label> <br>
+<br>    
+<input id ="name" type="text" placeholder="Enter your name" >
+<br>
+<br>
+<label for="Phone"> Phone:</label> <br>
+<br>
+<input id="Phone" type="number" placeholder="Enter your number" width="100%">
+<br>
+<br>
+<label for="Email"> Email:</label> <br>
+<br>
+<input id="Emain" type="text" placeholder="Enter your email">
+<br>
+<br>
+<label for="Date of birth"> Date of Birth:</label> <br>
+<br>
+<input type="date">
+<br>
+<br>
+<label>Gender:</label>
+<label>Male</label>
+<input name="gender" type="radio">
+<label>Female</label>
+<input name="gender" type="radio">
+<label>Other</label>
+<input name="gender" type="radio">
+</div>
+   
+<div id="two">
+     <fieldset id="set" style="border-radius: 5%;">
+        <h2 style="color: blue;">Conference Preferences</h2>
+<label style="text-size-adjust: 4px;">Ticket Type:</label> <br>
+<br>
+<label>Student</label>
+<input name="gender" type="radio"> 
+<label>Professional</label>
+<input name="gender" type="radio">
+<label>VIP</label>
+<input name="gender" type="radio"> <br>
+<br>
+
+<label>Area of Interest:</label> <br>
+<br>
+<label>AI</label>
+<input name="AI" type="radio"> <br>
+
+<label>Web Development</label>
+<input name="Web Development" type="radio"> <br>
+
+<label>Cloud</label>
+<input name="Cloud" type="radio"> <br>
+
+<label>Cyber Seccurity</label>
+<input name="Cyber Seccurity" type="radio"> <br>
+
+<label>Data Science</label>
+<input name="Data Science" type="radio"> <br>
+
+<h2 style="color: blue;">Workshop Selection</h2> 
+<label>Select workshop:</label> 
+<select>
+     <option>Option 1</option>
+     <option>Option 2</option>
+     <option>Option 3</option>
+     <option>Option 4</option>
+</select>
+</div> 
+
+<div>
+<fieldset id="set2" style="border-radius: 5%;">
+        <h2 style="color: blue;">Account Information</h2>
+<label for="Username"> Username:</label> <br>
+<br>    
+<input id ="Username" type="text" placeholder="Enter your username" >
+<br>
+<br>
+<label for="Password"> Password:</label> <br>
+<br>
+<input id="Password" type="number" placeholder="Enter your password" width="100%">
+<br>
+<br>
+<label for="Confirm Password"> Confirm Password:</label> <br>
+<br>
+<input id="Confirm Password" type="number" placeholder="Enter your password">
+</div>
+
+<div>
+<fieldset id="set2" style="border-radius: 5%;">
+        <h2 style="color: blue;">Additional Information</h2>
+<p>Why do you want to attend this conference?</p>
+<textarea id="textarea"> write your answer here... </textarea> <br>
+<br>
+<label>I agree to the terms and conditions</label> 
+<input type="checkbox"> <br>
+<br>
+<center> <button>Submit Registration</button> </center>
+
+  </div>
+</div>
+</fieldset> 
+</center>
+</body>
+</html>

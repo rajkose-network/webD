@@ -1,0 +1,80 @@
+
+.lead{
+      display: flex;
+      justify-content: center;
+      margin-top: 50px auto;
+}
+.main{
+      margin:40px;
+      height: 350px;
+      width: 250px;
+      display: inline-block;
+      position: relative;
+}
+#one{
+      height: 50%;
+      width: 250px;
+      border-radius: 10%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+#img1{
+      height: 100%;
+      width: 250px;
+      border-radius: 10%;
+}
+#two{
+      height: 50%;
+      width: 250px;
+      border-radius: 10%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;   
+}
+#img2{
+      height: 100%;
+      width: 250px;
+      border-radius: 10%;
+}
+#three{
+      height: 50%;
+      width: 250px;
+      border-radius: 10%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+#img3{
+      height: 100%;
+      width: 250px;
+      border-radius: 10%;
+}
+#four{
+      height: 50%;
+      width: 250px;
+      border-radius: 10%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+#img4{
+      height: 100%;
+      width: 250px;
+      border-radius: 10%;
+}
+#five{
+      height: 50%;
+      width: 250px;
+      border-radius: 10%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+#img5{
+      height: 100%;
+      width: 250px;
+      border-radius: 10%;
+}
+#six{
+      height: 50%;
+      width: 250px;
+      border-radius: 10%;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+#img6{
+      height: 100%;
+      width: 250px;
+      border-radius: 10%;
+}
+

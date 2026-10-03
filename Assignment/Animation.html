@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+           div{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            margin: 100px auto;
+           }
+           div:hover{
+            animation-name: change;
+            animation-duration: 10s;
+           }
+           @keyframes change {
+               0%{
+                background-color: green;
+                height: 100vh;
+               }
+               25%{
+                background-color: goldenrod;
+                width: 50vw;
+               }
+               50%{
+                background-color: slateblue;
+                height: 100vh;
+               }
+               100%{
+                background-color: black;
+                width: 50vw;
+               }
+
+           }
+    </style>
+</head>
+<body>
+      <div></div>
+</body>
+</html>
